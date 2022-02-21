@@ -16,6 +16,71 @@
   </head>
   <body>
     <div class="container">
+        <h1 id="title">5-Day Weather Forecast</h1>
+      <div class="row">
+        <form class="form-horizontal" id="search-engine-form">
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Enter your city</label>
+              <div col-sm-10>
+              <input
+                id="city"
+                type="text"
+                class="form-control inputBox"
+                placeholder="e.g. London, Tokyo"
+                autocapitalize="on"
+              />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class = "col-sm-offset-2 col-sm-10">
+                <button type="submit" class="enterButton">Search</button>
+              </div>
+            </div>
+        </form>
+      </div>
+      <br />
+      <div class="col-md-12">
+        <div class="row weatherToday">
+            <div class="col-md column-style todaySearchCategory">
+              Date/Time:
+              <div class="dateTime">
+                <strong
+                  ><span id="weekday"></span>, <span id="day"></span>
+                  <span id="month"></span> <span id="year"></span>
+                  <span id="hours"></span>:<span id="minutes"></span>
+                </strong>
+              </div>
+            </div>
+            <div class="col-md column-style todaySearchCategory">
+              Weather:
+              <div class="results" id="weather-icon-today">
+                <i class="fa-solid fa-sun sun-icon"></i>
+              </div>
+            </div>
+            <div class="col-md column-style todaySearchCategory">
+                Overview:
+                <div class="results" id="weather-description-today">-</div>
+            </div>
+            <div class="col-md column-style todaySearchCategory">
+              Temperature:
+              <div class="results">
+                <span id="temp-today">-</span>
+                </span
+                >
+              </div>
+            </div>
+            <div class="col-md column-style todaySearchCategory">
+              Humidity:
+              <div class="results" id="humidity-today">-%</div>
+            </div>
+            <div class="col-md column-style todaySearchCategory">
+                Windspeed:
+                <div class="results" id="windspeed-today">-</div>
+            </div>
+          </div>
+        </div>
+      <br />
+      <br />
     </div>
   </body>
 </html>
