@@ -39,3 +39,154 @@ footer {
   position: fixed bottom;
   line-height: 48px;
 }
+
+.dateTime {
+  font-size: 18px;
+}
+
+.conversion {
+  font-size: 18px;
+}
+
+#celsius-conversion {
+  transition: all 200ms ease-in;
+}
+
+#fahrenheit-conversion {
+  transition: all 200ms ease-in;
+}
+
+#fahrenheit-conversion:hover {
+  color: rgb(219, 17, 67);
+  cursor: pointer;
+}
+
+#celsius-conversion:hover {
+  color: rgb(219, 17, 67);
+  cursor: pointer;
+}
+
+.weatherToday {
+  background: rgba(245, 245, 245, 50%);
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.five-day-forecast {
+  padding: 10px;
+  margin: 0px, 0px, 0px, 30px;
+}
+
+#weather-description-today {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.todaySearchCategory {
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.results {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.searchEngine {
+  background: rgba(245, 245, 245, 50%);
+  border-radius: 60px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+.column-style {
+  text-align: center;
+  color: rgb(61, 96, 138);
+}
+
+.enterButton {
+  height: 60px;
+  width: 200px;
+  font-family: Roboto;
+  font-size: 24px;
+  background: #6f8db7;
+  border-radius: 60px;
+  color: aliceblue;
+  transition: all 200ms ease-in-out;
+  border: none;
+}
+
+.enterButton:hover {
+  background-color: #2d4664;
+  cursor: pointer;
+}
+
+.currentLocationButton {
+  height: 40px;
+  margin: 10px;
+  background: #f39c73;
+  border-radius: 60px;
+  color: aliceblue;
+  transition: all 200ms ease-in-out;
+  border: none;
+}
+
+.currentLocationButton:hover {
+  background-color: #ee6c30;
+  cursor: pointer;
+}
+
+.inputBox {
+  height: 60px;
+  font-size: 24px;
+  font-family: Roboto;
+  padding: 0px, 50px;
+}
+
+.card {
+  background-color: rgba(245, 245, 245, 50%);
+  border-radius: 10%;
+  margin: 2px;
+}
+
+.card-body {
+  color: #3d608a;
+  text-align: center;
+}
+
+.card-title {
+  font-size: medium;
+}
+
+.card-text {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.weather-description {
+  color: whitesmoke;
+  background-color: #6f8db7;
+  border: 2px solid #3d608a;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.sun-icon {
+  color: rgb(255, 136, 0);
+}
+
+.sun-cloud-icon {
+  color: rgb(255, 217, 0);
+}
+
+.wind-icon,
+.drizzle-icon {
+  color: gray;
+}
+
+.raincloud-icon {
+  color: black;
+}
