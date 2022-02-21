@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", serif;
+  color: #3d608a;
+  background-image: url(https://images.unsplash.com/photo-1612198619563-a3a31fd47e6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNreSUyMGNsb3Vkc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-color: #91b8ee;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+}
+
+h2 {
+  padding: 0px;
+}
+
+h4 {
+  line-height: 36px;
+  color: aliceblue;
+}
+
+form {
+  padding: 10px;
+  display: inline;
+}
+
+label {
+  color: aliceblue;
+  font-size: 24px;
+}
+
+ul {
+  border-radius: 10px;
+}
+
+footer {
+  position: fixed bottom;
+  line-height: 48px;
+}
